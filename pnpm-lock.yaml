@@ -9,6 +9,9 @@ dependencies:
     specifier: ^1.8.11
     version: 1.8.11
   vite-plugin-solid-svg:
+    specifier: 0.8.0
+    version: 0.8.0(solid-js@1.8.11)(vite@5.0.11)
+  vite-plugin-solid-svg-updated:
     specifier: file:vite-plugin-solid-svg-0.8.0.tgz
     version: file:vite-plugin-solid-svg-0.8.0.tgz(solid-js@1.8.11)(vite@5.0.11)
 
@@ -1357,6 +1360,17 @@ packages:
   /validate-html-nesting@1.2.2:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
     dev: true
+
+  /vite-plugin-solid-svg@0.8.0(solid-js@1.8.11)(vite@5.0.11):
+    resolution: {integrity: sha512-m4HQ6nnwjPqiJONnRRZjLkOC86ZbgfBMpE6UnqGI62R2a7SZB2To/v6oeiZ+17LFtYYCNbZ2DPQT66a/YmqM3A==}
+    peerDependencies:
+      solid-js: ^1
+      vite: '>=4'
+    dependencies:
+      solid-js: 1.8.11
+      svgo: 3.2.0
+      vite: 5.0.11
+    dev: false
 
   /vite-plugin-solid@2.8.2(solid-js@1.8.11)(vite@5.0.11):
     resolution: {integrity: sha512-HcvMs6DTxBaO4kE3psnirPQBCUUdYeQkCNKuB2TpEkJsxb6BGP6/7qkbbCSMxn25PyNdjvzVi1WXi0ou8KPgHw==}
